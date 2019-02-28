@@ -10,3 +10,7 @@ CREATE TABLE farmer (
 );
  
 DESC farmer;
+/*With eclipse-link 
+<property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
+We don't need create the table manually
+*/
